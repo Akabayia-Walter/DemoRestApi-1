@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-from configs.database import db,client
+from app.configs.database import db,client
 import logging
 
 logger = logging.getLogger("uvicorn.error")

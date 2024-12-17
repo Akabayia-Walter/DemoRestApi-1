@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Query
 from pydantic import BaseModel, Field
-from configs.database import db
+from app.configs.database import db
 
 router = APIRouter(prefix="/api/v1", tags=["search"])
 

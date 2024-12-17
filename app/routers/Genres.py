@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Query
-from configs.database import db
-# kkddk
+from app.configs.database import db
+
 router = APIRouter(prefix="/api/v1", tags=["typemovie"])
 
 @router.get("/genres")
