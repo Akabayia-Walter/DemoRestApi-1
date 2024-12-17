@@ -24,6 +24,6 @@ async def get_all(skip:int = 0,limit:int = 1):
         
         raise HTTPException(
             status_code=500,
-            detail="An internal error occurred. Please try again later."
+            detail="An internal error occurred. Please try again laters."
         )
     
